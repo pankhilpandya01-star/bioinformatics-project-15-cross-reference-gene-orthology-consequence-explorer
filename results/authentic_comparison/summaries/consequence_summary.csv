@@ -1,0 +1,103 @@
+accession,label,consequence,variant_gene_count
+GCF_000005845.2,MG1655 baseline,conservative_inframe_deletion,1
+GCF_000005845.2,MG1655 baseline,conservative_inframe_insertion,2
+GCF_000005845.2,MG1655 baseline,disruptive_inframe_deletion,1
+GCF_000005845.2,MG1655 baseline,disruptive_inframe_insertion,6
+GCF_000005845.2,MG1655 baseline,frameshift_variant,21
+GCF_000005845.2,MG1655 baseline,frameshift_variant&splice_region_variant,2
+GCF_000005845.2,MG1655 baseline,frameshift_variant&stop_gained,1
+GCF_000005845.2,MG1655 baseline,initiator_codon_variant,5
+GCF_000005845.2,MG1655 baseline,intragenic_variant,595
+GCF_000005845.2,MG1655 baseline,missense_variant,4335
+GCF_000005845.2,MG1655 baseline,splice_region_variant&stop_retained_variant,17
+GCF_000005845.2,MG1655 baseline,start_lost,2
+GCF_000005845.2,MG1655 baseline,stop_gained,25
+GCF_000005845.2,MG1655 baseline,stop_lost&splice_region_variant,5
+GCF_000005845.2,MG1655 baseline,synonymous_variant,23011
+GCF_000026225.1,ATCC 35469,conservative_inframe_deletion,1
+GCF_000026225.1,ATCC 35469,conservative_inframe_insertion,2
+GCF_000026225.1,ATCC 35469,disruptive_inframe_deletion,2
+GCF_000026225.1,ATCC 35469,disruptive_inframe_insertion,1
+GCF_000026225.1,ATCC 35469,disruptive_inframe_insertion&splice_region_variant,1
+GCF_000026225.1,ATCC 35469,frameshift_variant,3
+GCF_000026225.1,ATCC 35469,initiator_codon_variant,3
+GCF_000026225.1,ATCC 35469,intragenic_variant,3
+GCF_000026225.1,ATCC 35469,missense_variant,1727
+GCF_000026225.1,ATCC 35469,missense_variant&splice_region_variant,1
+GCF_000026225.1,ATCC 35469,splice_region_variant&stop_retained_variant,8
+GCF_000026225.1,ATCC 35469,stop_gained,13
+GCF_000026225.1,ATCC 35469,stop_lost,2
+GCF_000026225.1,ATCC 35469,stop_lost&splice_region_variant,4
+GCF_000026225.1,ATCC 35469,synonymous_variant,12047
+GCF_002900365.1,HT073016,conservative_inframe_deletion,3
+GCF_002900365.1,HT073016,conservative_inframe_insertion,3
+GCF_002900365.1,HT073016,disruptive_inframe_insertion,2
+GCF_002900365.1,HT073016,frameshift_variant,6
+GCF_002900365.1,HT073016,frameshift_variant&splice_region_variant,1
+GCF_002900365.1,HT073016,initiator_codon_variant,2
+GCF_002900365.1,HT073016,intragenic_variant,4
+GCF_002900365.1,HT073016,intron_variant,158
+GCF_002900365.1,HT073016,missense_variant,4044
+GCF_002900365.1,HT073016,splice_region_variant&stop_retained_variant,16
+GCF_002900365.1,HT073016,splice_region_variant&synonymous_variant,1
+GCF_002900365.1,HT073016,start_lost,1
+GCF_002900365.1,HT073016,stop_gained,19
+GCF_002900365.1,HT073016,stop_lost,10
+GCF_002900365.1,HT073016,stop_lost&splice_region_variant,5
+GCF_002900365.1,HT073016,stop_retained_variant,1
+GCF_002900365.1,HT073016,synonymous_variant,36574
+GCF_003697165.2,DSM 30083 / ATCC 11775,conservative_inframe_deletion,4
+GCF_003697165.2,DSM 30083 / ATCC 11775,conservative_inframe_insertion,1
+GCF_003697165.2,DSM 30083 / ATCC 11775,disruptive_inframe_deletion,4
+GCF_003697165.2,DSM 30083 / ATCC 11775,disruptive_inframe_insertion,4
+GCF_003697165.2,DSM 30083 / ATCC 11775,disruptive_inframe_insertion&splice_region_variant,1
+GCF_003697165.2,DSM 30083 / ATCC 11775,frameshift_variant,32
+GCF_003697165.2,DSM 30083 / ATCC 11775,frameshift_variant&start_lost,1
+GCF_003697165.2,DSM 30083 / ATCC 11775,frameshift_variant&stop_lost,1
+GCF_003697165.2,DSM 30083 / ATCC 11775,frameshift_variant&stop_lost&splice_region_variant,1
+GCF_003697165.2,DSM 30083 / ATCC 11775,initiator_codon_variant,12
+GCF_003697165.2,DSM 30083 / ATCC 11775,intragenic_variant,8
+GCF_003697165.2,DSM 30083 / ATCC 11775,missense_variant,11780
+GCF_003697165.2,DSM 30083 / ATCC 11775,splice_region_variant&stop_retained_variant,50
+GCF_003697165.2,DSM 30083 / ATCC 11775,splice_region_variant&synonymous_variant,3
+GCF_003697165.2,DSM 30083 / ATCC 11775,start_lost,1
+GCF_003697165.2,DSM 30083 / ATCC 11775,stop_gained,54
+GCF_003697165.2,DSM 30083 / ATCC 11775,stop_lost,34
+GCF_003697165.2,DSM 30083 / ATCC 11775,stop_lost&splice_region_variant,9
+GCF_003697165.2,DSM 30083 / ATCC 11775,stop_retained_variant,16
+GCF_003697165.2,DSM 30083 / ATCC 11775,synonymous_variant,72608
+GCF_005843885.1,E4742,conservative_inframe_deletion,1
+GCF_005843885.1,E4742,disruptive_inframe_deletion,1
+GCF_005843885.1,E4742,disruptive_inframe_insertion,2
+GCF_005843885.1,E4742,frameshift_variant,10
+GCF_005843885.1,E4742,frameshift_variant&stop_gained,1
+GCF_005843885.1,E4742,initiator_codon_variant,6
+GCF_005843885.1,E4742,intragenic_variant,1
+GCF_005843885.1,E4742,missense_variant,4896
+GCF_005843885.1,E4742,splice_region_variant&stop_retained_variant,25
+GCF_005843885.1,E4742,stop_gained,31
+GCF_005843885.1,E4742,stop_lost,8
+GCF_005843885.1,E4742,stop_lost&splice_region_variant,5
+GCF_005843885.1,E4742,stop_retained_variant,1
+GCF_005843885.1,E4742,synonymous_variant,39779
+GCF_036503815.1,2017-02-2CC,conservative_inframe_deletion,1
+GCF_036503815.1,2017-02-2CC,conservative_inframe_insertion,4
+GCF_036503815.1,2017-02-2CC,disruptive_inframe_deletion,2
+GCF_036503815.1,2017-02-2CC,disruptive_inframe_insertion,2
+GCF_036503815.1,2017-02-2CC,frameshift_variant,39
+GCF_036503815.1,2017-02-2CC,frameshift_variant&splice_region_variant,4
+GCF_036503815.1,2017-02-2CC,frameshift_variant&start_lost,2
+GCF_036503815.1,2017-02-2CC,frameshift_variant&stop_lost,1
+GCF_036503815.1,2017-02-2CC,frameshift_variant&stop_lost&splice_region_variant,1
+GCF_036503815.1,2017-02-2CC,initiator_codon_variant,9
+GCF_036503815.1,2017-02-2CC,intragenic_variant,17
+GCF_036503815.1,2017-02-2CC,missense_variant,13238
+GCF_036503815.1,2017-02-2CC,splice_region_variant&stop_retained_variant,70
+GCF_036503815.1,2017-02-2CC,start_lost,2
+GCF_036503815.1,2017-02-2CC,start_lost&conservative_inframe_insertion,1
+GCF_036503815.1,2017-02-2CC,stop_gained,75
+GCF_036503815.1,2017-02-2CC,stop_lost,9
+GCF_036503815.1,2017-02-2CC,stop_lost&conservative_inframe_deletion&splice_region_variant,1
+GCF_036503815.1,2017-02-2CC,stop_lost&splice_region_variant,11
+GCF_036503815.1,2017-02-2CC,stop_retained_variant,4
+GCF_036503815.1,2017-02-2CC,synonymous_variant,101961

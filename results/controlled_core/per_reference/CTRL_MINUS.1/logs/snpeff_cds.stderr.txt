@@ -1,0 +1,60 @@
+00:00:00 SnpEff version SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+00:00:00 Command: 'cds'
+00:00:00 Checking database using CDS sequences
+00:00:00 Reading configuration file 'snpEff.config'. Genome: 'P15_CTRL_MINUS_1'
+00:00:00 Looking for config file: './work/CTRL_MINUS.1/snpEff.config'
+00:00:00 Reading config file: ./work/CTRL_MINUS.1/snpEff.config
+00:00:00 Codon table 'Bacterial_and_Plant_Plastid' assigned to chromosome 'NC_CTRL_MINUS.1'
+00:00:00 done
+00:00:00 Reading CDSs from file 'database/P15_CTRL_MINUS_1/cds.by_transcript_id.fa'...
+00:00:00 done (2 CDSs).
+00:00:00 Reading database for genome version 'P15_CTRL_MINUS_1' from file './work/CTRL_MINUS.1/./database/P15_CTRL_MINUS_1/snpEffectPredictor.bin' (this might take a while)
+00:00:00 done
+00:00:00 Loading Motifs and PWMs
+00:00:00 Building interval forest
+00:00:00 done.
+00:00:00 Genome stats :
+#-----------------------------------------------
+# Genome name                : 'P15_CTRL_MINUS_1'
+# Genome version             : 'P15_CTRL_MINUS_1'
+# Genome ID                  : 'P15_CTRL_MINUS_1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 2
+# Protein coding genes       : 2
+#-----------------------------------------------
+# Transcripts                : 2
+# Avg. transcripts per gene  : 1.00
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      2 ( 100.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 2
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :      0 ( 0.00% )
+#        STOP codon warnings :      0 ( 0.00% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :      0 ( 0.00% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 2
+# Exons                      : 2
+# Exons with sequence        : 2
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 1.00
+#-----------------------------------------------
+# Number of chromosomes      : 1
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'NC_CTRL_MINUS.1'	600	Bacterial_and_Plant_Plastid
+#-----------------------------------------------
+
+00:00:00 Comparing CDS...
+	Labels:
+		'+' : OK
+		'.' : Missing
+		'*' : Error
+	00:00:00 done
+00:00:00 Done.

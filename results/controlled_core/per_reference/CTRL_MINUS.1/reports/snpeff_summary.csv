@@ -1,0 +1,130 @@
+
+# Summary table 
+
+Name , Value
+Genome , P15_CTRL_MINUS_1 
+Date , 2026-09-13 14:36
+SnpEff_version , SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+Command_line_arguments , SnpEff  -stats ../../per_reference/CTRL_MINUS.1/reports/snpeff_summary.html -csvStats ../../per_reference/CTRL_MINUS.1/reports/snpeff_summary.csv P15_CTRL_MINUS_1 accepted.normalized.vcf.gz 
+Warnings , 0 
+Number_of_lines_in_input_file, 2
+Number_of_variants_before_filter, 2
+Number_of_not_variants , 0
+Number_of_variants_processed , 2
+Number_of_known_variants (i.e. non-empty ID) , 0, 0% 
+Number_of_effects , 2 
+Genome_total_length ,600 
+Genome_effective_length ,600 
+Change_rate , 300 
+
+# Change rate by chromosome
+
+Chromosome , Length , Changes , Change_rate 
+NC_CTRL_MINUS.1 , 600 , 2 , 300
+
+# Variantss by type
+
+Type , Count , Percent 
+SNP , 2 , 100% 
+
+# Effects by impact
+
+Type , Count , Percent 
+HIGH , 1 , 50% 
+MODERATE , 1 , 50% 
+
+# Effects by functional class
+
+Type , Count , Percent 
+MISSENSE , 1 , 50% 
+NONSENSE , 1 , 50% 
+
+Missense_Silent_ratio, 0
+
+# Count by effects
+
+Type , Count , Percent 
+missense_variant , 1 , 50% 
+stop_gained , 1 , 50% 
+
+# Count by genomic region
+
+Type , Count , Percent 
+EXON , 2 , 100% 
+
+# Quality 
+
+Values , 60
+Count , 2
+
+# InDel lengths
+
+
+# Base changes
+
+base  , A  , C  , G  , T 
+ A  , 0  , 0  , 0  , 0 
+ C  , 1  , 0  , 0  , 0 
+ G  , 1  , 0  , 0  , 0 
+ T  , 0  , 0  , 0  , 0 
+
+# Ts/Tv summary
+
+Transitions , 1
+Transversions , 1
+Ts_Tv_ratio , 1
+
+# Ts/Tv : All variants
+
+Sample ,controlled,Total
+Transitions ,1,1
+Transversions ,1,1
+Ts/Tv ,1.000,1.000
+
+
+# Ts/Tv : Known variants
+
+No results available (empty input?)
+
+# Allele frequency
+
+# Allele frequency : All variants
+
+Values , 50
+Count , 2
+
+# Allele Count
+
+Values , 1
+Count , 2
+
+# Hom/Het table
+
+Sample_names , controlled
+Reference , 0
+Het , 2
+Hom , 0
+Missing , 0
+
+
+# Codon change table
+	
+codons  , ACT  , GAA  , GCT  , TAA 
+ ACT   , 0  , 0  , 0  , 0 
+ GAA   , 0  , 0  , 0  , 1 
+ GCT   , 1  , 0  , 0  , 0 
+ TAA   , 0  , 0  , 0  , 0 
+
+# Amino acid change table
+
+aa  , *  , A  , E  , T 
+ * , 0 , 0 , 0 , 0 
+ A , 0 , 0 , 0 , 1 
+ E , 1 , 0 , 0 , 0 
+ T , 0 , 0 , 0 , 0 
+
+# Chromosome change table
+
+NC_CTRL_MINUS.1, Position,0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550,560,570,580,590,600
+NC_CTRL_MINUS.1,Count,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+

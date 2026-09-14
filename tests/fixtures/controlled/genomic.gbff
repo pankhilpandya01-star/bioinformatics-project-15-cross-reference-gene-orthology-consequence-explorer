@@ -1,0 +1,47 @@
+LOCUS       NC_CONTROL              600 bp    DNA     circular SYN 11-SEP-2026
+DEFINITION  Controlled bacterial chromosome for consequence tests.
+ACCESSION   NC_CONTROL
+VERSION     NC_CONTROL.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..600
+                     /organism="synthetic construct"
+                     /mol_type="genomic DNA"
+     gene            1..90
+                     /gene="ctrlA"
+                     /locus_tag="ctrlA"
+     CDS             1..90
+                     /gene="ctrlA"
+                     /locus_tag="ctrlA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="controlled alpha protein"
+                     /protein_id="CTRL_A.1"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     gene            complement(301..390)
+                     /gene="ctrlB"
+                     /locus_tag="ctrlB"
+     CDS             complement(301..390)
+                     /gene="ctrlB"
+                     /locus_tag="ctrlB"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="controlled beta protein"
+                     /protein_id="CTRL_B.1"
+                     /translation="MEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
+ORIGIN
+        1 atggctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+       61 gctgctgctg ctgctgctgc tgctgcttaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+      121 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+      181 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+      241 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+      301 ttattcttct tcttcttctt cttcttcttc ttcttcttct tcttcttctt cttcttcttc
+      361 ttcttcttct tcttcttctt cttcttccat cccccccccc cccccccccc cccccccccc
+      421 cccccccccc cccccccccc cccccccccc cccccccccc cccccccccc cccccccccc
+      481 cccccccccc cccccccccc cccccccccc cccccccccc cccccccccc cccccccccc
+      541 cccccccccc cccccccccc cccccccccc cccccccccc cccccccccc cccccccccc
+//
+

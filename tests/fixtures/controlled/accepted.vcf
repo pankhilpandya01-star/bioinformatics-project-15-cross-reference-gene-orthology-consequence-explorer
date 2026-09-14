@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##contig=<ID=NC_CONTROL.1,length=600>
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Haploid genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	controlled
+NC_CONTROL.1	4	.	G	A	60	PASS	.	GT	1
+NC_CONTROL.1	387	.	C	A	60	PASS	.	GT	1

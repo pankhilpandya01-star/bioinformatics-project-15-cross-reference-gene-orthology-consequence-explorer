@@ -1,0 +1,57 @@
+00:00:00 SnpEff version SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+00:00:00 Command: 'build'
+00:00:00 Building database for 'P15_CTRL_PLUS_1'
+00:00:00 Reading configuration file 'snpEff.config'. Genome: 'P15_CTRL_PLUS_1'
+00:00:00 Looking for config file: './work/CTRL_PLUS.1/snpEff.config'
+00:00:00 Reading config file: ./work/CTRL_PLUS.1/snpEff.config
+00:00:00 Codon table 'Bacterial_and_Plant_Plastid' assigned to chromosome 'NC_CTRL_PLUS.1'
+00:00:00 done
+00:00:00 Chromosome: 'NC_CTRL_PLUS.1'	length: 600
+00:00:00 Create exons from CDS (if needed): 
+00:00:00 Exons created for 2 transcripts.
+00:00:00 Deleting redundant exons (if needed): 
+00:00:00 	Total transcripts with deleted exons: 0
+00:00:00 Collapsing zero length introns (if needed): 
+00:00:00 	Total collapsed transcripts: 0
+00:00:00 		Adding genomic sequences to genes: 
+00:00:00 	Done (2 sequences added).
+00:00:00 		Adding genomic sequences to exons: 
+00:00:00 	Done (2 sequences added, 0 ignored).
+00:00:00 Finishing up genome
+00:00:00 Adjusting transcripts: 
+00:00:00 Adjusting genes: 
+00:00:00 Adjusting chromosomes lengths: 
+00:00:00 Ranking exons: 
+00:00:00 Create UTRs from CDS (if needed): 
+00:00:00 Remove empty chromosomes: 
+00:00:00 Marking as 'coding' from CDS information: 
+00:00:00 Done: 0 transcripts marked
+00:00:00 
+00:00:00 Caracterizing exons by splicing (stage 1) : 
+
+00:00:00 Caracterizing exons by splicing (stage 2) : 
+00:00:00 done.
+00:00:00 [Optional] Rare amino acid annotations
+WARNING_FILE_NOT_FOUND: Rare Amino Acid analysis: Cannot read protein sequence file './work/CTRL_PLUS.1/./database/P15_CTRL_PLUS_1/protein.fa', nothing done.
+00:00:00 CDS check: GenBank file format, skipping
+
+00:00:00 Protein check file: './work/CTRL_PLUS.1/./database/P15_CTRL_PLUS_1/genes.gbk'
+
+00:00:00 Checking database using protein sequences
+00:00:00 Comparing Proteins...
+	Labels:
+		'+' : OK
+		'.' : Missing
+		'*' : Error
+00:00:00 
+
+00:00:00 Saving database
+00:00:00 Saving sequences for small chromosmes to file './work/CTRL_PLUS.1/./database/P15_CTRL_PLUS_1/sequence.bin'
+00:00:00 [Optional] Reading regulation elements: GFF
+WARNING_FILE_NOT_FOUND: Cannot read optional regulation file './work/CTRL_PLUS.1/./database/P15_CTRL_PLUS_1/regulation.gff', nothing done.
+00:00:00 [Optional] Reading regulation elements: BED 
+00:00:00 Cannot find optional regulation dir './work/CTRL_PLUS.1/./database/P15_CTRL_PLUS_1/regulation.bed/', nothing done.
+00:00:00 [Optional] Reading motifs: GFF
+WARNING_FILE_NOT_FOUND: Cannot open PWMs file ./work/CTRL_PLUS.1/./database/P15_CTRL_PLUS_1/pwms.bin. Nothing done
+00:00:00 Done
+00:00:00 Done.

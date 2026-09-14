@@ -1,0 +1,13 @@
+{
+  "workflow": "project-15-source-review",
+  "status": "pass",
+  "sample_id": "SRR13921545",
+  "baseline_accession": "GCF_000005845.2",
+  "references": 6,
+  "source_checks_passed": 6,
+  "database_checks_passed": 12,
+  "maximum_database_error_rate": 0.02,
+  "reference_sequence_identity": "FASTA and GenBank sequences match for all references",
+  "inherited_inputs_unchanged": true,
+  "comparison_boundary": "MG1655 is primary; five alternatives are sensitivity-analysis cohorts. Gene-level orthology will not imply coordinate-equivalent variants."
+}

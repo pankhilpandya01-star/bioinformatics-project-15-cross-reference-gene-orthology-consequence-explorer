@@ -1,0 +1,14 @@
+area,scenarios,evidence,status
+Manifest validation,"malformed columns, duplicate accessions, duplicate labels, invalid values, existing output",unit and controlled validation tests,pass
+Reference consistency,"FASTA and GenBank disagreement, unknown annotation contig, reference allele disagreement",unit tests plus six-reference read-only validation,pass
+FASTA and identifiers,"duplicate FASTA identifiers, unsafe IDs, sanitized identifier collisions",unit tests,pass
+GFF3 features,"duplicate unrelated feature IDs, discontinuous CDS IDs, circular features, plus/minus strands",unit and controlled tests,pass
+Feature contexts,"pseudogenes, overlapping genes, proteinless features",unit and controlled tests,pass
+Callable regions,"negative, empty, out-of-range, overlapping, unsorted, and unknown-contig BED intervals",unit tests,pass
+VCF callsets,"duplicate keys, multiallelic records, out-of-range positions, non-PASS records, wrong samples, empty callsets",unit tests,pass
+SnpEff databases,"CDS/protein error threshold inclusive at 2% and rejected above 2%",unit tests plus twelve authentic checks,pass
+Orthology,"one-to-one, duplicated families, missing genes, renamed genes, unassigned proteins, ambiguous mappings",controlled and authentic tests,pass
+Consequence accounting,"overlapping effects, highest-impact selection, empty effects, exact variant-gene partition",unit and authentic tests,pass
+Native tools,"failure markers, nonzero failures, wrong pinned versions, sanitized logs",unit tests plus live version verification,pass
+Atomic publication,"generic failure, annotation subprocess failure, OrthoFinder failure, staged-file cleanup",injected-failure tests,pass
+Authentic artifacts,"six callset totals, Project 14 reproduction, 26,768 proteins, 23,255 comparisons, 400 review contexts, dashboard",authentic result tests,pass

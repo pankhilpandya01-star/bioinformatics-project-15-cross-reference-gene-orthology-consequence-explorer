@@ -1,0 +1,143 @@
+{
+  "workflow": "comparative-gene-explorer",
+  "workflow_version": "0.1.0",
+  "milestone": "core_workflow",
+  "status": "pass",
+  "parameters": {
+    "baseline_accession": "CTRL_PLUS.1",
+    "sample_id": "controlled",
+    "minimum_gene_callable_fraction": 0.9,
+    "maximum_database_error_rate": 0.02,
+    "upstream_downstream_length": 0,
+    "threads": 1,
+    "codon_table": "Bacterial_and_Plant_Plastid"
+  },
+  "references": [
+    {
+      "accession": "CTRL_PLUS.1",
+      "role": "baseline",
+      "genes": 2,
+      "coding_genes": 2,
+      "callable_coding_genes": 1,
+      "accepted_variants": 2,
+      "annotation_effects": 2
+    },
+    {
+      "accession": "CTRL_MINUS.1",
+      "role": "alternative",
+      "genes": 2,
+      "coding_genes": 2,
+      "callable_coding_genes": 1,
+      "accepted_variants": 2,
+      "annotation_effects": 2
+    }
+  ],
+  "source_checksums": {
+    "CTRL_PLUS.1": {
+      "reference_fasta": "3d7ccd7caa687fe5461b1ede87c24d49be94fd1e8d0ec0eb00726c8d6c35ae3b",
+      "genbank_annotation": "5e41ad545a3495ea990bce2b0e5186da854bba9523ae1d95c57e872db6b11379",
+      "gff3_annotation": "c7f7cb72f3b81f7fe1a2b4c22cbedf98e3d6da0218b7a4aee4248178684b608e",
+      "cds_fasta": "17b1ba83e0d0319cab018cf62f03bab2b7d282e6cc0bfc2baf988182a9529d50",
+      "protein_fasta": "30af1b63802e515a1a935b49cb309726557ab6c69bf763cedd4b86eaf81e0109",
+      "accepted_vcf": "a764603eab68e0658d5875823806db5b6e7ed6b2269d93ba6b1e7ac9ee618e04",
+      "accepted_vcf_index": "3544dae15ebe70d4c3ac37eb3ac4409852e353b2428cba569a49af3f9c17af8d",
+      "callable_bed": "c48e14a40062490b809bad3da47f108a4cb0319b165acf1c7e2df5f67353801e"
+    },
+    "CTRL_MINUS.1": {
+      "reference_fasta": "6d145c27cb1a4872b6a6d33c7fae9c07d5ce97cad21b4681a7f090ddd9b15898",
+      "genbank_annotation": "5d99a88bc1a7ade16b39cf86fd2d324a11e0f4b3804ff6a28d89e1b6f8bd2d11",
+      "gff3_annotation": "d66d51b2540a3028f0c4ec9a4d33442a51b107d68772e919afecd55e6a193f45",
+      "cds_fasta": "394c0e477d0d7992ea3eda12bd8121a023a9814a6e829e9aad5874946ba58b57",
+      "protein_fasta": "30af1b63802e515a1a935b49cb309726557ab6c69bf763cedd4b86eaf81e0109",
+      "accepted_vcf": "0626373cff8b9520b928d1f7f64c54581acac4b388a5ed442081d573ac7f7aff",
+      "accepted_vcf_index": "0a8f20bac39daaa13dd5ce1c638d0778b3cb3eeda5b198c87ccb1d9380adae35",
+      "callable_bed": "c828f9d7952a8cf4efa099d2392a44855ca76fc9ef57e6bd0deba411f9f12462"
+    }
+  },
+  "tools": [
+    {
+      "tool": "OrthoFinder",
+      "required": "3.1.5",
+      "installed_package": "3.1.5",
+      "cli_reported": "3.1.5",
+      "passed": true
+    },
+    {
+      "tool": "SnpEff",
+      "required": "5.4.0c",
+      "installed_package": "5.4.0c",
+      "cli_reported": "5.4c",
+      "passed": true
+    },
+    {
+      "tool": "BCFtools",
+      "required": "1.24",
+      "installed_package": "1.24",
+      "cli_reported": "1.24",
+      "passed": true
+    },
+    {
+      "tool": "NCBI Datasets CLI",
+      "required": "18.36.0",
+      "installed_package": "18.36.0",
+      "cli_reported": "18.36.0",
+      "passed": true
+    },
+    {
+      "tool": "OpenJDK",
+      "required": "21",
+      "installed_package": "21.0.10",
+      "cli_reported": "21.0.10-internal",
+      "passed": true
+    },
+    {
+      "tool": "Python",
+      "required": "3.12",
+      "installed_package": "3.12.14",
+      "cli_reported": "3.12.14",
+      "passed": true
+    },
+    {
+      "tool": "Matplotlib",
+      "required": "3.11.1",
+      "installed_package": "3.11.1",
+      "cli_reported": "3.11.1",
+      "passed": true
+    }
+  ],
+  "commands": [
+    "CTRL_PLUS.1: bcftools norm -f reference.fasta -c e -m -any -d exact -Oz -o accepted.normalized.vcf.gz accepted.vcf",
+    "CTRL_PLUS.1: bcftools index --csi accepted.normalized.vcf.gz",
+    "CTRL_PLUS.1: snpEff build -c snpEff.config -genbank -v P15_CTRL_PLUS_1",
+    "CTRL_PLUS.1: snpEff cds -c snpEff.config -v P15_CTRL_PLUS_1 database/P15_CTRL_PLUS_1/cds.by_transcript_id.fa",
+    "CTRL_PLUS.1: snpEff -c snpEff.config -nodownload -noLog -stats ../../per_reference/CTRL_PLUS.1/reports/snpeff_summary.html -csvStats ../../per_reference/CTRL_PLUS.1/reports/snpeff_summary.csv -ud 0 P15_CTRL_PLUS_1 accepted.normalized.vcf.gz",
+    "CTRL_PLUS.1: bcftools view --threads 1 -Oz -o accepted.annotated.vcf.gz accepted.annotated.vcf",
+    "CTRL_PLUS.1: bcftools index --csi accepted.annotated.vcf.gz",
+    "CTRL_PLUS.1: bcftools stats accepted.annotated.vcf.gz",
+    "CTRL_MINUS.1: bcftools norm -f reference.fasta -c e -m -any -d exact -Oz -o accepted.normalized.vcf.gz accepted.vcf",
+    "CTRL_MINUS.1: bcftools index --csi accepted.normalized.vcf.gz",
+    "CTRL_MINUS.1: snpEff build -c snpEff.config -genbank -v P15_CTRL_MINUS_1",
+    "CTRL_MINUS.1: snpEff cds -c snpEff.config -v P15_CTRL_MINUS_1 database/P15_CTRL_MINUS_1/cds.by_transcript_id.fa",
+    "CTRL_MINUS.1: snpEff -c snpEff.config -nodownload -noLog -stats ../../per_reference/CTRL_MINUS.1/reports/snpeff_summary.html -csvStats ../../per_reference/CTRL_MINUS.1/reports/snpeff_summary.csv -ud 0 P15_CTRL_MINUS_1 accepted.normalized.vcf.gz",
+    "CTRL_MINUS.1: bcftools view --threads 1 -Oz -o accepted.annotated.vcf.gz accepted.annotated.vcf",
+    "CTRL_MINUS.1: bcftools index --csi accepted.annotated.vcf.gz",
+    "CTRL_MINUS.1: bcftools stats accepted.annotated.vcf.gz"
+  ],
+  "counts": {
+    "references": 2,
+    "genes": 4,
+    "coding_genes": 4,
+    "callable_coding_genes": 2,
+    "accepted_variants": 4,
+    "annotation_effects": 4,
+    "database_checks": 4
+  },
+  "outputs": {
+    "gene_catalog_sha256": "391b5770c5de84983a5d14f98d59cb64d56c9b4dd8b0dfa245319f9b6a3e8039",
+    "gene_callability_sha256": "c1cc759f1d1cd98593e0782f1c2e39c0ab322583ab293d222500ab2162529809",
+    "variant_annotations_sha256": "4587e0224647b508a474267c2120921a5fc7e1b8fead7068bb1d7ad2080df83d",
+    "annotation_effects_sha256": "ef5572870767acc02947f83527850de9857453b81f93509d2b71ed9aca7f4059"
+  },
+  "source_inputs_unchanged": true,
+  "interpretation_boundary": "Alternative references are sensitivity-analysis cohorts; annotation does not imply coordinate-equivalent variants or proven biological effects."
+}

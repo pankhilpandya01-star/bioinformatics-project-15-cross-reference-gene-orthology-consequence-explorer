@@ -1,0 +1,5 @@
+accession,label,role,gene_id,gene_name,feature_id,feature_type,gene_biotype,contig,strand,start_1based,end_1based_raw,origin_spanning,feature_segments,cds_segments,cds_bases,protein_ids
+CTRL_PLUS.1,plus-primary,baseline,ctrlA,ctrlA,gene-ctrlA,gene,protein_coding,NC_CTRL_PLUS.1,+,1,90,False,1,1,90,CTRL_A.1
+CTRL_PLUS.1,plus-primary,baseline,ctrlB,ctrlB,gene-ctrlB,gene,protein_coding,NC_CTRL_PLUS.1,-,301,390,False,1,1,90,CTRL_B.1
+CTRL_MINUS.1,minus-primary,alternative,ctrlA,ctrlA,gene-ctrlA,gene,protein_coding,NC_CTRL_MINUS.1,+,1,90,False,1,1,90,CTRL_A.1
+CTRL_MINUS.1,minus-primary,alternative,ctrlB,ctrlB,gene-ctrlB,gene,protein_coding,NC_CTRL_MINUS.1,-,301,390,False,1,1,90,CTRL_B.1

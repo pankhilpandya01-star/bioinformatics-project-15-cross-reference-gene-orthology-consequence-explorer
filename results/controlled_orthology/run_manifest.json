@@ -1,0 +1,31 @@
+{
+  "workflow": "comparative-gene-explorer",
+  "milestone": "orthology_workflow",
+  "status": "pass",
+  "baseline_accession": "CTRL_BASE.1",
+  "parameters": {
+    "method": "msa",
+    "sequence_search": "diamond",
+    "msa_program": "famsa",
+    "tree_program": "fasttree",
+    "threads": 1,
+    "preserve_prepared_ids": true
+  },
+  "command": "orthofinder -f proteomes -M msa -S diamond -A famsa -T fasttree -t 1 -a 1 -X -o results",
+  "protein_source_sha256": {
+    "CTRL_BASE.1": "0181445150c6dcb3204ba72e35d7de09dff90e3d1205fb02341ab2bb265bd86b",
+    "CTRL_ALT.1": "1aba9e0c63afc19fa4bfde601f5c53c5e339daacaf0bf2ed904528276ba819b7",
+    "CTRL_OUT.1": "1ecf7ef2d591b6898d3e4676092201903218e178109e9a8db9b9b20812635195"
+  },
+  "counts": {
+    "references": 3,
+    "prepared_proteins": 24,
+    "protein_map_rows": 25,
+    "orthogroups_and_unassigned": 8,
+    "orthogroup_members": 24,
+    "pairwise_protein_orthologs": 26,
+    "baseline_alternative_gene_comparisons": 22
+  },
+  "protein_accounting_complete": true,
+  "interpretation_boundary": "Orthogroup membership suggests evolutionary relationship; it does not prove identical function or coordinate-equivalent variants."
+}

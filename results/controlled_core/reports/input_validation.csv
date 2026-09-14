@@ -1,0 +1,3 @@
+accession,contigs,reference_bases,genes,cds_records,input_variants,annotated_variants,annotation_effects,reference_genbank_identical,normalized_keys_unchanged,passed
+CTRL_PLUS.1,1,600,2,2,2,2,2,True,True,True
+CTRL_MINUS.1,1,600,2,2,2,2,2,True,True,True

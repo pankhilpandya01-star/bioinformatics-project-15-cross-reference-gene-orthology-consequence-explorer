@@ -1,0 +1,3 @@
+accession,role,genes,coding_genes,callable_coding_genes,accepted_variants,annotation_effects
+CTRL_PLUS.1,baseline,2,2,1,2,2
+CTRL_MINUS.1,alternative,2,2,1,2,2

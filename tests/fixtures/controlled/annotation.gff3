@@ -1,0 +1,8 @@
+##gff-version 3
+##sequence-region NC_CONTROL.1 1 600
+NC_CONTROL.1	RefSeq	region	1	600	.	+	.	ID=NC_CONTROL.1:1..600;Is_circular=true;gbkey=Src
+NC_CONTROL.1	RefSeq	gene	1	90	.	+	.	ID=gene-ctrlA;Name=ctrlA;locus_tag=ctrlA;gene=ctrlA;gene_biotype=protein_coding
+NC_CONTROL.1	RefSeq	CDS	1	90	.	+	0	ID=cds-CTRL_A.1;Parent=gene-ctrlA;protein_id=CTRL_A.1;locus_tag=ctrlA;gbkey=CDS
+NC_CONTROL.1	RefSeq	gene	301	390	.	-	.	ID=gene-ctrlB;Name=ctrlB;locus_tag=ctrlB;gene=ctrlB;gene_biotype=protein_coding
+NC_CONTROL.1	RefSeq	CDS	301	390	.	-	0	ID=cds-CTRL_B.1;Parent=gene-ctrlB;protein_id=CTRL_B.1;locus_tag=ctrlB;gbkey=CDS
+

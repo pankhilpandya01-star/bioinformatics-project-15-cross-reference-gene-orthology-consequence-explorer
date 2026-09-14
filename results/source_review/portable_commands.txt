@@ -1,0 +1,18 @@
+datasets download genome accession GCF_000005845.2 --include genome,gbff,gff3,cds,protein,seq-report --filename <PACKAGE_ZIP>
+snpEff build -c <SNPEFF_CONFIG> -genbank -v P15_GCF_000005845_2
+snpEff cds -c <SNPEFF_CONFIG> -v P15_GCF_000005845_2 <REHEADERED_CDS>
+datasets download genome accession GCF_003697165.2 --include genome,gbff,gff3,cds,protein,seq-report --filename <PACKAGE_ZIP>
+snpEff build -c <SNPEFF_CONFIG> -genbank -v P15_GCF_003697165_2
+snpEff cds -c <SNPEFF_CONFIG> -v P15_GCF_003697165_2 <REHEADERED_CDS>
+datasets download genome accession GCF_036503815.1 --include genome,gbff,gff3,cds,protein,seq-report --filename <PACKAGE_ZIP>
+snpEff build -c <SNPEFF_CONFIG> -genbank -v P15_GCF_036503815_1
+snpEff cds -c <SNPEFF_CONFIG> -v P15_GCF_036503815_1 <REHEADERED_CDS>
+datasets download genome accession GCF_005843885.1 --include genome,gbff,gff3,cds,protein,seq-report --filename <PACKAGE_ZIP>
+snpEff build -c <SNPEFF_CONFIG> -genbank -v P15_GCF_005843885_1
+snpEff cds -c <SNPEFF_CONFIG> -v P15_GCF_005843885_1 <REHEADERED_CDS>
+datasets download genome accession GCF_000026225.1 --include genome,gbff,gff3,cds,protein,seq-report --filename <PACKAGE_ZIP>
+snpEff build -c <SNPEFF_CONFIG> -genbank -v P15_GCF_000026225_1
+snpEff cds -c <SNPEFF_CONFIG> -v P15_GCF_000026225_1 <REHEADERED_CDS>
+datasets download genome accession GCF_002900365.1 --include genome,gbff,gff3,cds,protein,seq-report --filename <PACKAGE_ZIP>
+snpEff build -c <SNPEFF_CONFIG> -genbank -v P15_GCF_002900365_1
+snpEff cds -c <SNPEFF_CONFIG> -v P15_GCF_002900365_1 <REHEADERED_CDS>

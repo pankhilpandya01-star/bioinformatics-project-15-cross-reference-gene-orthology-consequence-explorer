@@ -1,0 +1,6 @@
+alternative_accession,alternative_label,project13_alternative_eligible,comparable_gene_pairs,baseline_variant_gene_assignments,alternative_variant_gene_assignments,baseline_callable_cds_bases,alternative_callable_cds_bases,baseline_variants_per_1000_callable_cds,alternative_variants_per_1000_callable_cds
+GCF_003697165.2,DSM 30083 / ATCC 11775,False,3206,22541,72550,3039525,3035172,7.415961375543876,23.903093465543304
+GCF_036503815.1,2017-02-2CC,False,3137,21551,93993,2948952,2937665,7.3080199338612495,31.995819809270287
+GCF_005843885.1,E4742,False,9,4,61,1338,1313,2.9895366218236172,46.45849200304646
+GCF_000026225.1,ATCC 35469,False,1,0,0,87,85,0.0,0.0
+GCF_002900365.1,HT073016,False,3,1,21,585,566,1.7094017094017093,37.102473498233216

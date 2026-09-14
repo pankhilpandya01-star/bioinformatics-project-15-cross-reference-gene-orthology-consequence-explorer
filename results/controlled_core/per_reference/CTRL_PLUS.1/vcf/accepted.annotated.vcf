@@ -1,0 +1,15 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=NC_CTRL_PLUS.1,length=600>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Haploid genotype">
+##bcftools_viewVersion=1.24+htslib-1.24
+##bcftools_normVersion=1.24+htslib-1.24
+##bcftools_normCommand=norm -f reference.fasta -c e -m -any -d exact -Oz -o accepted.normalized.vcf.gz accepted.vcf; Date=Sun Sep 13 14:36:31 2026
+##SnpEffVersion="5.4c (build 2026-02-23 07:25), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  -stats ../../per_reference/CTRL_PLUS.1/reports/snpeff_summary.html -csvStats ../../per_reference/CTRL_PLUS.1/reports/snpeff_summary.csv P15_CTRL_PLUS_1 accepted.normalized.vcf.gz "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	controlled
+NC_CTRL_PLUS.1	4	.	G	A	60.0	PASS	ANN=A|missense_variant|MODERATE|ctrlA|ctrlA|transcript|ctrlA|protein_coding|1/1|c.4G>A|p.Ala2Thr|4/90|4/90|2/29||	GT	1
+NC_CTRL_PLUS.1	387	.	C	A	60.0	PASS	ANN=A|stop_gained|HIGH|ctrlB|ctrlB|transcript|ctrlB|protein_coding|1/1|c.4G>T|p.Glu2*|4/90|4/90|2/29||	GT	1

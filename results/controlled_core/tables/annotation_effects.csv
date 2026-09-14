@@ -1,0 +1,5 @@
+accession,variant_key,contig,position,reference,alternate,effect_order,allele,consequence,impact,gene_name,gene_id,feature_type,feature_id,transcript_biotype,rank,hgvs_c,hgvs_p,cdna_position,cds_position,protein_position,distance,warnings
+CTRL_PLUS.1,NC_CTRL_PLUS.1:4:G:A,NC_CTRL_PLUS.1,4,G,A,1,A,missense_variant,MODERATE,ctrlA,ctrlA,transcript,ctrlA,protein_coding,1/1,c.4G>A,p.Ala2Thr,4/90,4/90,2/29,,
+CTRL_PLUS.1,NC_CTRL_PLUS.1:387:C:A,NC_CTRL_PLUS.1,387,C,A,1,A,stop_gained,HIGH,ctrlB,ctrlB,transcript,ctrlB,protein_coding,1/1,c.4G>T,p.Glu2*,4/90,4/90,2/29,,
+CTRL_MINUS.1,NC_CTRL_MINUS.1:4:G:A,NC_CTRL_MINUS.1,4,G,A,1,A,missense_variant,MODERATE,ctrlA,ctrlA,transcript,ctrlA,protein_coding,1/1,c.4G>A,p.Ala2Thr,4/90,4/90,2/29,,
+CTRL_MINUS.1,NC_CTRL_MINUS.1:387:C:A,NC_CTRL_MINUS.1,387,C,A,1,A,stop_gained,HIGH,ctrlB,ctrlB,transcript,ctrlB,protein_coding,1/1,c.4G>T,p.Glu2*,4/90,4/90,2/29,,

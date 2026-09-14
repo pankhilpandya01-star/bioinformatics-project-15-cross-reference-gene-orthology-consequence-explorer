@@ -1,0 +1,1 @@
+..			++	Protein check:	P15_CTRL_PLUS_1	OK: 2	Not found: 0	Errors: 0	Error percentage: 0.0%

@@ -1,0 +1,18 @@
+{
+  "audit_date": "2026-09-14",
+  "scope": "Public candidate tree; ignored local data, caches, package metadata, and version-control metadata excluded",
+  "file_count_including_this_report": "000000000134",
+  "total_bytes_including_this_report": "000026264818",
+  "largest_file": "results/orthology_analysis/tables/pairwise_orthologs.csv",
+  "largest_file_bytes": "000007342828",
+  "maximum_file_size_limit_bytes": "000100000000",
+  "files_over_limit": 0,
+  "broken_local_markdown_links": 0,
+  "private_path_matches": 0,
+  "credential_or_private_key_matches": 0,
+  "personal_contact_matches": 0,
+  "unwanted_authorship_wording_matches": 0,
+  "offline_python_312_tests_passed": 58,
+  "repository_created": false,
+  "hosted_ci_run": false
+}

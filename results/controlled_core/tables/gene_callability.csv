@@ -1,0 +1,5 @@
+accession,gene_id,contig,strand,cds_bases,callable_cds_bases,callable_fraction,minimum_callable_fraction,meets_threshold,status
+CTRL_PLUS.1,ctrlA,NC_CTRL_PLUS.1,+,90,90,1.0,0.9,True,callable
+CTRL_PLUS.1,ctrlB,NC_CTRL_PLUS.1,-,90,45,0.5,0.9,False,low_callability
+CTRL_MINUS.1,ctrlA,NC_CTRL_MINUS.1,+,90,45,0.5,0.9,False,low_callability
+CTRL_MINUS.1,ctrlB,NC_CTRL_MINUS.1,-,90,90,1.0,0.9,True,callable

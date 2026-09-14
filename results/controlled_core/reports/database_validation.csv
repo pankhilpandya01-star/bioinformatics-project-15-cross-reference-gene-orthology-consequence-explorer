@@ -1,0 +1,5 @@
+check,ok,warnings,not_found,errors,error_percentage,accession,maximum_error_percentage,passed
+cds,2,0,0,0,0.0,CTRL_PLUS.1,2.0,True
+protein,2,0,0,0,0.0,CTRL_PLUS.1,2.0,True
+cds,2,0,0,0,0.0,CTRL_MINUS.1,2.0,True
+protein,2,0,0,0,0.0,CTRL_MINUS.1,2.0,True

@@ -1,0 +1,5 @@
+accession,variant_key,contig,position,reference,alternate,effect_count,primary_consequence,primary_impact,primary_gene_id,primary_gene_name,primary_feature_id,primary_hgvs_c,primary_hgvs_p,warnings
+CTRL_PLUS.1,NC_CTRL_PLUS.1:4:G:A,NC_CTRL_PLUS.1,4,G,A,1,missense_variant,MODERATE,ctrlA,ctrlA,ctrlA,c.4G>A,p.Ala2Thr,
+CTRL_PLUS.1,NC_CTRL_PLUS.1:387:C:A,NC_CTRL_PLUS.1,387,C,A,1,stop_gained,HIGH,ctrlB,ctrlB,ctrlB,c.4G>T,p.Glu2*,
+CTRL_MINUS.1,NC_CTRL_MINUS.1:4:G:A,NC_CTRL_MINUS.1,4,G,A,1,missense_variant,MODERATE,ctrlA,ctrlA,ctrlA,c.4G>A,p.Ala2Thr,
+CTRL_MINUS.1,NC_CTRL_MINUS.1:387:C:A,NC_CTRL_MINUS.1,387,C,A,1,stop_gained,HIGH,ctrlB,ctrlB,ctrlB,c.4G>T,p.Glu2*,

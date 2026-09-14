@@ -1,0 +1,15 @@
+# Large or generated local inputs
+/local/
+
+# Python build and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.venv/
+
+# Atomic-workflow staging directories
+.*.staging-*/
+

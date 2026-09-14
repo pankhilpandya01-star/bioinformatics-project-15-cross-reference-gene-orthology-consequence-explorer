@@ -1,0 +1,10 @@
+alternative_accession,alternative_label,context_category,review_candidate_count
+GCF_000026225.1,ATCC 35469,not_comparable,80
+GCF_002900365.1,HT073016,not_comparable,80
+GCF_003697165.2,DSM 30083 / ATCC 11775,comparable_with_high_impact_signal,15
+GCF_003697165.2,DSM 30083 / ATCC 11775,comparable_without_high_impact_signal,13
+GCF_003697165.2,DSM 30083 / ATCC 11775,not_comparable,52
+GCF_005843885.1,E4742,not_comparable,80
+GCF_036503815.1,2017-02-2CC,comparable_with_high_impact_signal,23
+GCF_036503815.1,2017-02-2CC,comparable_without_high_impact_signal,11
+GCF_036503815.1,2017-02-2CC,not_comparable,46

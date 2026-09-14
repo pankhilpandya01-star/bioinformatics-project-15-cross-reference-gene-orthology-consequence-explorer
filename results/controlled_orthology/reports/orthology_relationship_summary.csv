@@ -1,0 +1,11 @@
+alternative_accession,relationship,gene_count
+CTRL_ALT.1,many_to_many,2
+CTRL_ALT.1,many_to_one,2
+CTRL_ALT.1,no_ortholog,3
+CTRL_ALT.1,no_protein,1
+CTRL_ALT.1,one_to_many,1
+CTRL_ALT.1,one_to_one,2
+CTRL_OUT.1,many_to_one,6
+CTRL_OUT.1,no_ortholog,1
+CTRL_OUT.1,no_protein,1
+CTRL_OUT.1,one_to_one,3

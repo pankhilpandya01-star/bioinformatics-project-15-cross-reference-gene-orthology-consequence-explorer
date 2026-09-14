@@ -1,0 +1,4 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_HIGH	variants_impact_MODERATE	variants_effect_missense_variant	variants_effect_stop_gained
+ctrlA	ctrlA	ctrlA	protein_coding	0	1	1	0
+ctrlB	ctrlB	ctrlB	protein_coding	1	0	0	1

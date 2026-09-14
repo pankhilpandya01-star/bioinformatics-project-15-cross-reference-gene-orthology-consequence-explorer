@@ -1,0 +1,37 @@
+{
+  "workflow": "comparative-gene-explorer",
+  "milestone": "quality_review",
+  "status": "pass",
+  "tests": {
+    "framework": "Python unittest",
+    "python": "3.12.14",
+    "total": 58,
+    "passed": 58,
+    "failed": 0
+  },
+  "authentic_read_only_validation": {
+    "references": 6,
+    "genes": 28859,
+    "accepted_variants": 357581,
+    "passed": true
+  },
+  "pinned_tools": {
+    "orthofinder": "3.1.5",
+    "snpeff": "5.4.0c",
+    "bcftools": "1.24",
+    "ncbi_datasets_cli": "18.36.0",
+    "openjdk": "21.0.10",
+    "python": "3.12.14",
+    "matplotlib": "3.11.1"
+  },
+  "artifact_checksums": {
+    "source_review_manifest": "3debf72d73f341c8a0c300f91c98d510b695a20df232dd53205511a4408a62ec",
+    "orthology_manifest": "8f80aa5f0d09f1c060c63f3861df31149f87b44d9e90e959c85fcb2e85c6071c",
+    "local_annotation_manifest": "7059c3d991884392b6642b892bcddbc4b063e75143d0748b9ab418a6c13f8200",
+    "authentic_comparison_manifest": "72885c9b9617e162039abd547c9d169c39d6c8f4240a1ba9f25b87d9ac86a915",
+    "dashboard": "69b5a7d46088f327942206d47dd2eebf891891e26f27d44cf0868877f320a75a"
+  },
+  "source_inputs_unchanged": true,
+  "partial_outputs_after_injected_failures": 0,
+  "repository_created": false
+}
