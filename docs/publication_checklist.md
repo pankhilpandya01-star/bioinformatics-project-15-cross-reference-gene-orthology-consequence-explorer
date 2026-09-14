@@ -2,8 +2,8 @@
 
 Local preparation date: 2026-09-14.
 
-Repository creation and publication are intentionally paused until explicit
-authorization.
+The public repository was created and the audited candidate was published after
+explicit authorization.
 
 ## Completed locally
 
@@ -42,11 +42,11 @@ authorization.
 - [x] Confirmed every local README and documentation link resolves; repository
       links name the intended future public URL.
 
-## Requires explicit publication authorization
+## Publication status
 
-- [ ] Create the GitHub repository.
-- [ ] Review the exact staged file list.
-- [ ] Commit and push the publication candidate.
-- [ ] Confirm the hosted GitHub Actions run passes.
-- [ ] Check README tables, links, and dashboard rendering on GitHub.
+- [x] Created the public GitHub repository.
+- [x] Reviewed the exact staged file list.
+- [x] Committed and pushed the publication candidate.
+- [x] Confirmed the hosted GitHub Actions run passed.
+- [x] Checked README tables, links, and dashboard rendering on GitHub.
 - [ ] Add Project 15 to the portfolio and earlier-project navigation.
