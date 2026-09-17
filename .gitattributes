@@ -1,0 +1,2 @@
+# Generated SnpEff reports are published artifacts, not project source code.
+results/**/*.html linguist-generated=true
